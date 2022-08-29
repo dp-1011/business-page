@@ -1,0 +1,360 @@
+
+.green{
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #8BB7A2;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 1.5em;
+}
+.header{
+    font-size: 50px;
+    width: 600px;
+}
+.content{
+    color: #747474;
+}
+
+/* -----------page1------------------- */
+/* ------------------navbar----------- */
+.page-1{
+    background-color: #636C79;
+    margin-top: -8px;
+    margin-left: -5px;
+    padding: 30px 20px 0px 0px;
+    color: white;
+    
+}
+.menu{
+    display: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 80px 60px 80px;
+}
+.mavmid{
+    flex: 0.6;
+    
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 300px;
+}
+.list-item{
+   padding-right:50px;
+}
+.navlast>button{
+    background-color: transparent;
+}
+/* ---------------page-1-bottom --------------- */
+.page-1-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ---------------page-1-bottom-left --------------- */
+.page-1-bottom-left,.page-1-bottom-right{
+   flex: .5;
+}
+.page-1-bottom-left>img{
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+    margin:0px 100px 150px 200px;
+    border-radius: 10px;
+}
+
+/* ---------------page-1-bottom-right --------------- */
+.page-1-bottom-right{
+    margin:0px 100px 150px 0px;
+}
+.heading1{
+    font-size: 60px;
+}
+.content1{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+.mail>img{
+    z-index: 1;
+    position: absolute;
+    right: 760px;
+    bottom: 128px;
+    width: auto;
+    height: 30px;
+}
+
+input{
+    padding:20px 180px 20px 60px;
+    font-size: 20px;
+}
+.mail>button{
+    position: relative;
+    left: 285px;
+    bottom: 58px;
+}
+
+/* ------------------------page2-------------------------- */
+/* ------------------------page2-------------------------- */
+.page-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-2-top{
+    text-align: center;
+}
+.header-2{
+    font-size: 60px;
+}
+.page-2-mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+.second-pic{
+    z-index: -1;
+    width: 1300px;
+    height: 600px;
+    object-fit:cover;
+    object-position: top;
+}
+.play>img{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    filter: brightness(0) invert(1);
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+}
+/* --------------------page3--------------------------- */
+/* --------------------page3--------------------------- */
+table{
+    margin: 20px 100px 50px 100px;
+}
+.header-3{
+    font-size: 60px;
+}
+.fourth-pic,.fifth-pic{
+    width: 500px;
+    height: auto;
+}
+.third-pic{
+    width: 450px;
+    height: 450px;
+    object-fit:cover;
+    object-position: right;
+}
+.page-3{
+    margin: 0px 50px 0px 50px;
+}
+td{
+    padding: 20px 0px 40px 90px;
+}
+.fourth-pic{
+    width: 450px;
+    height: 450px;
+    object-fit:cover;
+    object-position: top;
+}
+
+.fifth-pic{
+    width: 450px;
+    height: 450px;
+    object-fit:cover;
+    object-position: center;
+}
+/* ---------------------page 6------------------- */
+/* ---------------------page 6------------------- */
+.page-6-top,.page-6-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:150px;
+    margin-right: 150px;
+}
+.page-6-top{
+    padding-right: 200px;
+}
+.content-6{
+    color: #747474;
+    font-size: 18px;
+}
+.eigth-pic,.sixth-pic,.seventh-pic{
+    width: 300px;
+}
+.last{
+    margin: 20px 0px 20px 650px ;
+}
+.name{
+    font-size: 20px;
+    padding: 20px 20px 20px 0px;
+}
+.into{
+    color: #747474;
+}
+/* -------------footer---------------------- */
+/* -------------footer---------------------- */
+footer{
+    background-color: #10181D;
+    color:white;
+    height: 500px;
+}
+.ft,.f-right,.fb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.face,.insta,.tw{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    border-radius: 50%;
+    padding-left: 20px;
+}
+.gh{
+    padding-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+.line{
+    width: 1400px;
+    border: 1px solid white;
+    position: relative;
+    left: 40px;
+}
+.f-items{
+    list-style-type: none;
+    padding-bottom: 15px;
+    text-align: left;
+    position: relative;
+    right: 35px;
+}
+@media only screen and (max-width:600px){
+    .page-1{
+        width: 100vw;
+        height: 150vh;
+    }
+    .page-1-bottom-left,.lists,.navlast{
+        display: none;
+    }
+    .heading1{
+        margin-top: 0px;
+        font-size: 50px;
+    }
+    .page-1-bottom-right{
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .menu{
+        display: block;
+    }
+    .mail-icon{
+        position: relative;
+        left: 70px;
+        top:505px;
+    }
+    .header-2{
+        margin: 0px;
+        font-size: 50px;
+        width: 100vw;
+    }
+    .page-2-mid{
+        margin-left: 30px;
+        width: 90vw;
+    }
+    .second-pic{
+        width: 600px;
+        height: 200px;
+    }
+    .play{
+        display: none;
+    }
+    table{
+        margin: 0px;
+    }
+    .header-3{
+        font-size: 50px;
+        margin: 0px;
+        width: 100vw;
+    }
+    .content,.content-6,.into,.line{
+        display: none;}
+    .header{
+        
+        font-size: 30px;
+        width: 60vw;
+        margin: 0px;
+        margin-right: 0px;
+    }
+    td{
+        padding: 0px;
+    }
+    .third-pic{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        right: 20px;
+    }
+    .fourth-pic,.fifth-pic{
+        width: 40vw;
+        height: 40vh;
+    }
+    .page-4-right{
+        position: absolute;
+        right: -30px;
+        top: 1600px;
+    }
+    .sixth-pic,.seventh-pic,.eigth-pic{
+        width: 25vw;
+        height: 40vh;
+        padding: 10px;
+    }
+    .page-6-top{
+        margin-left: 10px;
+    }
+    .page-6-bottom{
+        margin: 0px;
+    }
+    .name{
+        padding-top:0px ;
+        padding-bottom: 50px;
+    }
+    .see{
+        position: absolute;
+        left: 170px;
+        top: 2250px;
+     }
+     footer{
+        width: 100vw;
+     }
+     .fb{
+        padding-bottom: 0px;
+        height: fit-content;
+        flex-direction: column;
+        position: relative;
+        top: -100px;
+     }
+     .f-head{
+        margin-bottom: 0px;
+     }
+     .f-items{
+        display: none;
+     }
+}
